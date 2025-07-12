@@ -1,0 +1,27 @@
+{
+  "name": "lunar-phase-card-game",
+  "version": "1.0.0",
+  "description": "A card game that showcases different lunar phases.",
+  "main": "src/main.js",
+  "scripts": {
+    "start": "live-server src",
+    "build": "webpack --mode production",
+    "test": "jest"
+  },
+  "keywords": [
+    "lunar",
+    "phase",
+    "card",
+    "game"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {
+    "live-server": "^1.2.1",
+    "webpack": "^5.64.4",
+    "jest": "^27.0.6"
+  },
+  "devDependencies": {
+    "webpack-cli": "^4.9.1"
+  }
+}
